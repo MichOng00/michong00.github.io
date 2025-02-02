@@ -1,0 +1,1 @@
+A personal website based on the [Forty](https://github.com/andrewbanchich/forty-jekyll-theme) Jekyll theme.
