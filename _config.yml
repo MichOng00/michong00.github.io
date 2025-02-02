@@ -13,6 +13,8 @@ zip_code:
 country: 
 phone: 
 
+permalink: pretty # jekyllrb.com/docs/permalinks - cat/y/m/d/filename
+
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
