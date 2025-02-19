@@ -1,8 +1,8 @@
 ---
 title: Projects
 layout: landing
-description: 'A collection of things I've made.'
-image: assets/images/pic07.jpg
+description: 'A collection of my projects.'
+image: 
 nav-menu: true
 ---
 

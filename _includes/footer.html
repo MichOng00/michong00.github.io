@@ -29,15 +29,21 @@
 					<a href="mailto:{{ site.email }}">{{ site.email }}</a>
 				</div>
 			</section>
-			<!--
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+					<span class="icon alt fa-linkedin"></span>
+					<h3>LinkedIn</h3>
+					<a href="{{ site.socials.LinkedIn }}">linkedin.com/in/michelleong/</a>
 				</div>
 			</section>
 			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-github"></span>
+					<h3>LinkedIn</h3>
+					<a href="{{ site.socials.GitHub }}">github.com/MichOng00</a>
+				</div>
+			</section>
+			<!-- <section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
 					<h3>Address</h3>
@@ -59,8 +65,7 @@
 					{% endif %}
 					</span>
 				</div>
-			</section>
-			-->
+			</section> -->
 		</section>
 	</div>
 </section>
@@ -78,6 +83,12 @@
 						</li>
 					{% endif %}
 				{% endfor %}
+				<!-- special for email -->
+				<li>
+					<a href="mailto:{{ site.email }}" class="icon alt fa-envelope" target="_blank" rel="noopener noreferrer" aria-label="Email">
+						<span class="label">Email</span>
+					</a>
+				</li>
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
